@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* mini_header styling */
+.mini_header{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #3f3f3f;
+}
+
+.mini_header .icons{
+    width: 50%;
+    float: left;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+.mini_header .icons p{
+    color: white;
+    font-size: 19px;
+    font-family: 'Open Sans', sans-serif;
+    padding:2% 0px 0px 12%;
+    float: left;
+}
+
+.mini_header .icons li{
+    padding: 2% 0px 0px 2%;
+    display: inline-block;
+    list-style: none;
+}
+
+.mini_header .icons li a{
+    text-decoration: none;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+}
+.mini_header .icons li a:hover{
+    color: rgb(1, 143, 131);
+
+}
+
+
+
+.mini_header .mode-section{
+    float: right;
+    width: 50%;
+ 
+}
+.mini_header .mode-section p{
+    color: white;
+    font-size: 19px;
+    font-family: 'Open Sans', sans-serif;
+    padding:2% 0px 0px 80%;
+float: left;
+}
+
+.mini_header .mode-section li{
+position: absolute;
+top: 0;
+right: 0;
+cursor: pointer;
+    display: inline-block;
+   list-style: none;
+
+padding: 1% 3% 0px 0%;
+
+font-size: 22px;
+text-decoration: none;
+
+}
+
+#sun{
+    display: none;
+color: rgb(255, 255, 255);
+text-shadow: 0px 0px 4px rgb(0, 0, 0);
+
+}
+
+#moon{
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 0px 4px white;
+    
+}
+
+.dark{
+    background-color: red;
+    color: black;
+}
+
+
+
+
+/* main header */
+.main-header{
+position: relative;
+top: 0;
+left: 0;
+width: 100%;
+height: 120px;
+background-color: rgb(255, 255, 255);
+box-shadow: 0px 2px 8px 0px rgb(168, 168, 168);
+}
+
+.main-header .logo-section{
+    width: 20%;
+float: left;
+    height: 120px;
+    overflow: hidden;
+}
+.main-header .logo-section img{
+    width: 50%;
+    margin-top: -4%;
+    padding-left: 40%;
+    height: auto;
+}
+
+
+
+/* links */
+.main-header .links{
+    width:70%;
+    height: 120px;
+ 
+    float: left;
+}
+.main-header .links li{
+    user-select: none;
+    position: relative;
+    width: 170px;
+    height: 120px;
+    margin-left: 1%;
+    display: inline-block;
+    text-align: center;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+.main-header .links li a{
+font-size: 22px;
+line-height: 120px;
+
+font-family: 'Oswald', sans-serif;
+text-decoration: none;
+text-transform: uppercase;
+font-weight: 700;
+color: rgb(49, 49, 49);
+}
+
+
+.main-header .links li a:hover{
+    color: rgb(1, 143, 131);
+
+
+}
+.main-header .links li ol{
+    display: none;
+   position: absolute;
+   top: 95%;
+   left: 0;
+   height: auto;
+   width: 100%;
+box-shadow: 0px 1px 8px 0px rgb(173, 173, 173);
+}
+
+
+
+
+.main-header .links li ol li{
+    width: 100%;
+    height: 60px;
+    line-height: 0;
+    background-color: #fff;
+    font-family: Arial;
+
+}
+.main-header .links li ol li a:hover{
+    color: rgb(1, 143, 131);
+
+}
+
+.main-header .links li ol li a{
+    line-height: 60px;
+    font-size: 18px;
+    font-family: Arial;
+}
+
+
+
+.main-header .links li:hover ol{
+   
+    display: block;
+    }
+
+
+    /* search bar */
+    .main-header .searchBar{
+        float: left;
+        width: 10%;
+        height: 120px;
+        
+    }
+
+    .main-header .searchBar i{
+        font-size: 30px;
+        cursor: pointer;
+        padding-top: 30%;
+        padding-left: 40%;
+        color: rgb(5, 122, 143);
+        text-align: center;
+    }
+.main-header .searchInput{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    background-color: #fff;
+    display: none;
+
+}
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { display: none; }
+
+
+.main-header .searchInput #searchInput{
+    width: 90%;
+    margin-left: 5%;
+    height: 110px;
+    border: none;
+    margin-top: 0.4%;
+    font-size: 40px;
+  outline: none;
+
+color: rgb(102, 102, 102);
+  
+} 
+
+
+.main-header .searchInput .fa-xmark{
+    font-size: 34px;
+    font-weight: 800;
+    cursor: pointer;
+    
+}
+
+
+
+/* dark mode main header section */

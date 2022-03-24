@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <!-- font awesome link in project -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+    <!-- css link section -->
+    <link rel="stylesheet" href="index.css">
+    <title>Cheat Code | Home</title>
+</head>
+
+<body>
+    <!-- mini top header -->
+    <div class="mini_header">
+        <div class="icons">
+            <p>Connect With Us:</p>
+            <li><a href="" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
+            <li><a href="" title="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="" title="Twitter"><i class="fa-brands fa-twitter"></i></i></a></li>
+            <li><a href="" title="Google"><i class="fa-brands fa-google"></i></a></li>
+            <li><a href="" title="Telegram"><i class="fa-brands fa-telegram"></i></a></li>
+        </div>
+        <div class="mode-section">
+            <p> Mode: </p>
+            <li id="sun" onclick="lightModeActivate()" title="Activate Light Mode"><i class="fa-solid fa-sun"></i></li>
+            <li id="moon" onclick="darkModeActivate()" title="Activate Dark Mode"><i class="fa-solid fa-moon"></i></li>
+        </div>
+    </div>
+
+
+
+    <!-- main header -->
+
+    <div class="main-header">
+        <div class="logo-section">
+
+            <img src="img/logo.png" alt="">
+        </div>
+
+
+        <div class="links">
+<li><a href="">Home</a></li>
+<li><a href="">About Us</a></li>
+<li><a href="">Languages <i class="fa-solid fa-caret-down"></i></a>
+<ol>
+    <li><a href="">C</a></li>
+    <li><a href="">C++</a></li>
+    <li><a href="">JAVA</a></li>
+    <li><a href="">HTML</a></li>
+    <li><a href="">CSS</a></li>
+</ol>
+</li>
+<li><a href="">Contact Us</a></li>
+
+        </div>
+
+
+        <div class="searchBar">
+            <i class="fa-solid fa-magnifying-glass" title="search" onclick="showInput()"></i>
+        </div>
+
+        <div class="searchInput" id="searchInput">
+          <form action="">
+            <input type="search" name="search" id="searchInput" placeholder="Type & Hit Enter...">
+            <i class="fa-solid fa-xmark" onclick="hideSearchBar()"></i>
+        </form>
+        </div>
+    </div>
+
+
+
+    <script src="darkmodecontrol.js"></script>
+</body>
+
+</html>
